@@ -1,0 +1,21 @@
+<div class="pattern-dots-md top-dots">
+  <h1>products</h1>
+</div>
+<h2>in production</h2>
+<div fxLayout="row wrap" fxLayout.xs="column" fxLayoutAlign="space-around center" fxLayoutGap="25px">
+  <mat-card class="product-card" *ngFor="let prod of productionProds" fxFlex="calc(33%-25px)" fxFlex.sm="calc(50%-25px)">
+    <mat-card-header>
+      <mat-card-title [style.font-family]="prod.font ? prod.font : 'inherit'">
+        {{prod.name}}
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      {{prod.desc}}
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-button *ngIf="prod.prodURL" [href]="prod.prodURL" target="_blank">
+        View Product
+      </a>
+    </mat-card-actions>
+  </mat-card>
+</div>

@@ -1,0 +1,27 @@
+p {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+mat-card {
+    max-width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+mat-card-subtitle {
+    color: whitesmoke;
+}
+
+.mat-card-avatar {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 16px;
+}
+
+.jaxon-image {
+    background-image: url('https://avatars.githubusercontent.com/u/5314076');
+    background-size: cover;
+}
