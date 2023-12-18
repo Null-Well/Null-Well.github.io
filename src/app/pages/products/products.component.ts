@@ -28,6 +28,15 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.productionProds = [
       {
+        name: 'Kannada Cinema',
+        desc: `Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.`,
+        logoURL : null,
+        repoURL : null,
+        prodURL : 'https://play.google.com/store/apps/details?id=com.sharath.kannadamovies',
+        license : null,
+        font    : 'Cairo',
+      },
+      {
         name: 'Movie Explain',
         desc: `The Movie Explain app is a platform that provides users with detailed explanations of movies, TV shows, and other forms of visual media.`,
         logoURL : null,
