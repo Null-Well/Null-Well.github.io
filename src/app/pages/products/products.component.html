@@ -13,8 +13,11 @@
       {{prod.desc}}
     </mat-card-content>
     <mat-card-actions>
-      <a mat-button *ngIf="prod.prodURL" [href]="prod.prodURL" target="_blank">
-        View Product
+      <a mat-button [ngStyle]="{'border':'1px solid'}" *ngIf="prod.prodURLAndroid" [href]="prod.prodURLAndroid" target="_blank" title="Android">
+        <mat-icon [ngStyle]="{'color':'#08fdd8'}">android</mat-icon>
+      </a>
+      <a mat-button [ngStyle]="{'border':'1px solid'}" *ngIf="prod.prodURLWeb" [href]="prod.prodURLWeb" target="_blank" title="Progressive Web Ap (PWA)">
+        <mat-icon [ngStyle]="{'color':'#08fdd8'}">language</mat-icon>
       </a>
     </mat-card-actions>
   </mat-card>
