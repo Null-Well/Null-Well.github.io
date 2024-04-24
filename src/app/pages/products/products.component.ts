@@ -7,6 +7,7 @@ interface Product {
   logoURL : string, // logo (if applicable)
   prodURLWeb : string, // production URL for Web (if applicable)
   prodURLAndroid : string, // production URL for Android (if applicable)
+  prodURLWindows : string,
   license : string, // license (if applicable)
   font    : string, // font for title (if applicable)
 }
@@ -33,6 +34,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.kannadamovies',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -42,6 +44,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.moviexplain',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -51,6 +54,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.kannadaogatugalu',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -60,6 +64,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.kannadagaadegalu',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -69,6 +74,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : 'https://null-well.github.io/thoughtProbe/',
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.advancedmindreader',
+        prodURLWindows : 'https://www.microsoft.com/store/productId/9NWCZ994T4WK',
         license : null,
         font    : 'Cairo',
       },
@@ -78,6 +84,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.trainyourbrain',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -87,6 +94,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.memorypuzzle',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -96,6 +104,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.mathematicsPuzzle',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -105,6 +114,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.kannadabhaktisudha',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -114,6 +124,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.tictactoe',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -123,6 +134,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.urgeblood',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       },
@@ -132,6 +144,7 @@ export class ProductsComponent implements OnInit {
         logoURL : null,
         prodURLWeb : null,
         prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.mind&hl=en-IN',
+        prodURLWindows : null,
         license : null,
         font    : 'Cairo',
       }
