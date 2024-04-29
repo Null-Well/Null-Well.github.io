@@ -29,6 +29,16 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.productionProds = [
       {
+        name: 'Kannada Hangman',
+        desc: `Welcome to Kannada Hangman, the ultimate word-guessing game designed for Kannada language enthusiasts of all ages! Put your Kannada vocabulary skills to the test as you embark on a thrilling journey to save the stick figure from hanging by correctly guessing Kannada words.`,
+        logoURL : null,
+        prodURLWeb : null,
+        prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.kannadahangman',
+        prodURLWindows : 'https://www.microsoft.com/store/productId/9NC74ZZ1S8TP?ocid=pdpshare',
+        license : null,
+        font    : 'Cairo',
+      },
+      {
         name: 'Kannada Cinema',
         desc: `Welcome to the ultimate destination for Kannada Cinema enthusiasts – our specially curated Kannada Cinema app! Immerse yourself in the enchanting world of Kannada films, where tradition meets innovation and storytelling takes center stage.`,
         logoURL : null,
