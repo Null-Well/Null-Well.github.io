@@ -29,6 +29,16 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.productionProds = [
       {
+        name: 'Sanskrit Hangman',
+        desc: `Welcome to Sanskrit Hangman, the ultimate word-guessing game designed for Sanskrit enthusiasts of all ages! Dive into the ancient language of Sanskrit and put your vocabulary skills to the test by guessing words correctly to save the stick figure from hanging.`,
+        logoURL : null,
+        prodURLWeb : null,
+        prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.sanskrithhangman',
+        prodURLWindows : null,
+        license : null,
+        font    : 'Cairo',
+      },
+      {
         name: 'Kannada Hangman',
         desc: `Welcome to Kannada Hangman, the ultimate word-guessing game designed for Kannada language enthusiasts of all ages! Put your Kannada vocabulary skills to the test as you embark on a thrilling journey to save the stick figure from hanging by correctly guessing Kannada words.`,
         logoURL : null,
