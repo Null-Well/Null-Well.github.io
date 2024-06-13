@@ -29,6 +29,16 @@ export class ProductsComponent implements OnInit {
   ngOnInit(): void {
     this.productionProds = [
       {
+        name: 'Quiz Tournament',
+        desc: `Dive into the thrilling world of Quiz Tournament, the ultimate trivia challenge app that will put your knowledge to the test! With a vast variety of topics ranging from history and science to pop culture and sports, Quiz Tournament offers an engaging and educational experience for trivia enthusiasts of all levels.`,
+        logoURL : null,
+        prodURLWeb : null,
+        prodURLAndroid : 'https://play.google.com/store/apps/details?id=com.sharath.quiztournament&hl=en',
+        prodURLWindows : null,
+        license : null,
+        font    : 'Cairo',
+      },
+      {
         name: 'Sanskrit Hangman',
         desc: `Welcome to Sanskrit Hangman, the ultimate word-guessing game designed for Sanskrit enthusiasts of all ages! Dive into the ancient language of Sanskrit and put your vocabulary skills to the test by guessing words correctly to save the stick figure from hanging.`,
         logoURL : null,
